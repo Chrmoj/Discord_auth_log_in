@@ -1,0 +1,19 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <h1>Welcome back, <%= username %></h1>
+      </a>
+
+    </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <form action="/auth/logout">
+                <button class="button is-primary is-dark is-rounded my-custom-button"
+                type='submit'>Logout</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
